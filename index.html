@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<link rel="stylesheet" href="./style.css" type="text/css">
+	<link rel="stylesheet" href="./simple-reset.css" type="text/css">
+
+	<script src="./script.js" defer></script>
+
+	<title>Page Name</title>
+</head>
+<body>
+
+	<div class="wrapper">
+		<div class="wrapper-content">
+			<header></header>
+			<main class="main">
+				<div class="table-container">
+					<table class="table">
+						<thead class="table__thead">
+							<th class="table__thead-item">
+								First name
+							</th>
+							<th class="table__thead-item">
+								Last name
+							</th>
+							<th class="table__thead-item">
+								About
+							</th>
+							<th class="table__thead-item">
+								Eye color
+							</th>
+						</thead>
+						<tbody class="table__tbody">
+	
+						</tbody>
+					</table>
+					<div class="pagination">
+						<ul class="pagination__list">
+						</ul>
+					</div>
+					<div class="view-column">
+						<label class="view-column__label">
+							Select a column
+							<select class="view-column__select-list" size="1" name="columnName">
+								<option class="view-column__item" value="firstName">First name</option>
+								<option class="view-column__item" value="lastName">Last name</option>
+								<option class="view-column__item" value="about">About</option>
+								<option class="view-column__item" value="eyeColor">Eye color</option>
+							</select>
+						</label>
+						<button class="view-column-show view-column-btn">Show</button>
+						<button class="view-column-hide view-column-btn">Hide</button>
+					</div>
+				</div>
+				<div class="edit">
+					<div class="edit__container">
+						<div class="edit__item">
+							<label class="edit__item-label label">
+								<span class="label__span">First name</span>
+								<input class="edit__item-input firstName-input" type="text">
+							</label>
+						</div>
+						<div class="edit__item">
+							<label class="edit__item-label label">
+								<span class="label__span">Last name</span>
+								<input class="edit__item-input lastName-input" type="text">
+							</label>
+						</div>
+						<div class="edit__item">
+							<label class="edit__item-label label">
+								<span class="label__span">About</span>
+								<textarea class="edit__item-textarea about-textarea" name="" id="" rows="5"></textarea>
+							</label>
+						</div>
+						<div class="edit__item">
+							<label class="edit__item-label label">
+								<span class="label__span">Eye color</span>
+								<input class="edit__item-input eyeColor-input" type="text">
+							</label>
+						</div>
+					</div>
+					<div class="save-btn-container">
+						<button class="save-btn">Save</button>
+					</div>
+				</div>
+			</main>
+			<footer></footer>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
